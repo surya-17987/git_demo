@@ -1,0 +1,46 @@
+Assignment September 7th 2022
+===============================
+
+1) Create a Bill Details class with the attributes as shown (in the image) processing the details
+   from the String 
+   for example 
+   String transactions="19283,03-Sep-22,4500,988xx67xxx,Cash;19267,03-Sep-22,6720,988xx55xxx,CC;
+19283,03-Sep-22,4500,988xx67xxx,DebitCard; ... ; ..... ; .... ;"
+note individual elements are separted by , and the record is separated by ;
+   You need to process the string and create object
+   Store the object in 
+   a) HashMap with Key being bill number, value being the bill detail objects
+   b) HashSet - bill details object
+NOTE let the date be in string like DD-MTH-YY"  so  16-AUG-22 or 06-JUN-22 and son
+find the following:-
+
+a) bill details with the highest bill amount and lowest bill amount
+b) transaction amount done in the month of AUG
+c) what are the TOTAL valued transactions the customer whose mobile number 9887767890 did?
+d) How many non-cash transacion happened?
+e) get a report in the following way.... (for instance)
+   mobil number   No. of transactions done     Total transaction value
+   9667812309             5                         12340
+   9887123408             4                          8910
+    ...                  ..                          ....
+
+2) once question 1) is working then do the following :-
+   given there is a Customer class with the following details ...
+   9887789081,Ganesh Kumar,ganesh@yahoo.com;9554607891,Vikram Chopra,vikram.c@hotmail.com;....
+   ...;....; and so on....
+   create it from the String and store it in the HashMap 
+   a) those customer who have tranacted the total value of 8000 and above create appropriate class
+ and store it in a collection the details like
+    mob number, name and email ID
+   b) there could be a possibility that the mobile number is there in the transactions BUT
+   it could not be there in the Customer string details - for such customers
+   record it as following :-
+   988778909  Info NOT available. Will collect speaking to them.
+    
+*****************
+   
+
+
+
+
+   
